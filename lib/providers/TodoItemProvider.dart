@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hello_world/models/todo-Item.dart';
+import 'package:hello_world/models/todo-item.dart';
 import 'package:hello_world/services/db.dart';
 
 class TodoItemProvider extends ChangeNotifier {
