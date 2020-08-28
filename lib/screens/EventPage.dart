@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/providers/EventProvider.dart';
 import 'package:provider/provider.dart';
 
 class EventPage extends StatelessWidget {

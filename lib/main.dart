@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/providers/CounterProvider.dart';
 import 'package:hello_world/screens/index.dart';
-import 'package:provider/provider.dart';
+import 'package:hello_world/services/db.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await DB.init();
   runApp(MyApp());
 }
 
